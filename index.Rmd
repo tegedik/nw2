@@ -1,0 +1,47 @@
+---
+title: "On Preference Formation"
+#runningheader: "Tufte Handout with R Markdown" # only for pdf output
+#subtitle: "An implementation in R Markdown" # only for html output
+author: "Tahir Enes Gedik"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+The purported irrationality of human behavior is not a strong criticism of rational-choice theory. For those not following a strong version of RCT, it is easy to switch to some form of bounded rationality. The issue is preference formation. This issue is evident in neoclassical economic theory where the preferences are exogenous:
+
+> The formation of preferences is outside the analytic concern of the discipline because, economists argue, individuals make independent, rational choices to maximize their utility. But once one moves away from material goods, calibrated through relative prices, the neoclassical apparatus is in dangerous waters precisely because it does not have a theory of utility formation.$^1$
+
+```{marginfigure}
+$^1$ Friedland, R. 1991. "Bringing Society Back In: Symbols, Practices, and Institutional Contradictions."
+```
+
+
+There is an inherent difficulty in the exchange of certain non-material goods (e.g., prestige). Not only they are produced through a different logic, but the way they are produced make them resistant to exchange relations in a straightforward way. That is why one needs to go through a series of institutional mechanisms to accomplish this. To grasp preference formation, one should understand how these goods are produced and valued. 
+
+
+
+
+
+
+
+
+
+
+
+
